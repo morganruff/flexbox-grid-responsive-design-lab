@@ -54,14 +54,19 @@ html {
                          "contact  content"; */
   }
   
-  main > img{
+  #img{
     border-radius: 50%;
     border: 10px;
+    border-color: ;
+
     margin: 10px 10px;
     align-items: normal;
     grid-area: img;
   }
 
+  .left {
+
+  }
   #content {
     background-color: #5f5767;    
     grid-area: content;
@@ -78,7 +83,7 @@ html {
 
   main > section > header {
     color: #FF8066;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans';
     font-size: 3rem;
     grid-area: header;
   }
@@ -88,9 +93,10 @@ html {
     font-size: 2rem;
   }
 
-  @media only screen and (min-width: 768px) {
+  /* @media only screen and (min-width: 600px) {
     main {
-      grid-template-columns: 40% 60%;
-      grid-template-rows: auto auto auto auto;
-      grid-template-areas:
+      display: grid;
+      text-align: left;
+      width: 550px;
     }
+  } */
