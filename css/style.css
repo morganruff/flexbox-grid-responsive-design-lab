@@ -58,7 +58,7 @@ html {
     border-radius: 50%;
     border: 10px;
     border-color: #C34A36;
-    margin: 10px 10px;
+    margin: 50px 10px 20px 10px;
     align-items: normal;
     grid-area: img;
   }
@@ -73,8 +73,10 @@ html {
   
   #contact {
       display: flex;
-      align-items: bottom;
-      justify-content: center;
+      /* align-items: bottom; */
+      justify-content: space-around;
+      margin: 30px 10px 10px 0;
+      width: 100%;
   }
 
   #name {
@@ -96,6 +98,17 @@ html {
     color:#C34A36;
     font-size: 2rem;
     margin: 0 0 5px 0;
+  }
+
+  #hat{
+    margin: 0 5px;
+    background-color: ivory;
+    width: 50%;
+  }
+  #glass{
+    margin: 0 5px;
+    width: 50%;
+    background-color: whitesmoke;
   }
 
   /* @media only screen and (min-width: 600px) {
