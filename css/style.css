@@ -23,17 +23,17 @@ html {
   body {
     display: grid;
     background-color: #B0A8B9;
-    font-family: "Helvetica Neue";
+    font-family: 'Lucida Sans';
     margin: 0;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    grid-template-columns: 30 px 40px 30px;
+    grid-template-columns: 30px 40px 30px;
     grid-template-rows: 50px 30px auto;
-    grid-template-areas: 
+    /* grid-template-areas: 
         "name name"
         "img content"
-        "contact content"
+        "contact content" */
   }
 
   main {
@@ -57,16 +57,13 @@ html {
   #img{
     border-radius: 50%;
     border: 10px;
-    border-color: ;
-
+    border-color: #C34A36;
     margin: 10px 10px;
     align-items: normal;
     grid-area: img;
   }
 
-  .left {
-
-  }
+  
   #content {
     background-color: #5f5767;    
     grid-area: content;
@@ -76,21 +73,29 @@ html {
   
   #contact {
       display: flex;
-      grid-area: contact;
       align-items: bottom;
       justify-content: center;
   }
 
-  main > section > header {
+  #name {
     color: #FF8066;
-    font-family:'Lucida Sans';
     font-size: 3rem;
-    grid-area: header;
+    margin: 20px 10px;
+  }
+
+  #text{
+      color:honeydew;
+      margin: 20px 20px;
+      font-size: 1rem;
+  }
+  #emoji {
+      margin: 5px;
   }
 
   #price {
     color:#C34A36;
     font-size: 2rem;
+    margin: 0 0 5px 0;
   }
 
   /* @media only screen and (min-width: 600px) {
